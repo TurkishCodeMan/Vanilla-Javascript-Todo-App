@@ -62,7 +62,10 @@ window.addEventListener('load', () => {
                 if (e.target.parentElement.parentElement.classList[0] == 'note') {
                     noteContainer.removeChild(   e.target.parentElement.parentElement);
                     completeContanier.appendChild(e.target.parentElement.parentElement) 
-                    icon.remove(); //
+                    e.target.parentElement.parentElement.classList.add('complete')
+                    console.log(  e.target.parentElement.parentElement.classList)
+                    icon.remove();
+                  
                 }
             })
         })

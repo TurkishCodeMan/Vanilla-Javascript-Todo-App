@@ -105,3 +105,7 @@ body {
 .note p {
   font-size: 1.3rem;
 }
+
+.complete{
+    background-color: rgb(140, 233, 140);
+}
